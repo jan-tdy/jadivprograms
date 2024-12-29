@@ -1,0 +1,67 @@
+Tento súbor obsahuje pokyny na inštaláciu potrebných závislostí pre aplikácie v rámci projektu JADIV na Raspberry Pi.
+Požiadavky
+
+Na spustenie aplikácií v projekte JADIV je potrebné nainštalovať nasledujúce závislosti:
+
+    Python 3
+    Skontrolujte, či máte nainštalovanú verziu Python 3:
+
+python3 --version
+
+PyQt5
+Na vytváranie grafického užívateľského rozhrania je potrebný balík PyQt5.
+Nainštalujte ho pomocou nasledujúceho príkazu:
+
+sudo apt install python3-pyqt5
+
+psutil
+Pre monitorovanie systémových zdrojov (ako CPU, RAM, Disk) použijeme knižnicu psutil.
+Nainštalujte ju pomocou:
+
+pip3 install psutil
+
+NetworkManager (nmcli)
+Pre správu Wi-Fi sietí a sieťových pripojení bude potrebné mať nainštalovaný NetworkManager s príkazom nmcli. Tento balík je predinštalovaný na väčšine distribúcií Linuxu, vrátane Raspbianu.
+
+Ak nie je nainštalovaný, použite:
+
+    sudo apt install network-manager
+
+    Nastavenie dátumu a času
+    Na nastavenie dátumu a času používame príkaz date, ktorý je súčasťou väčšiny distribúcií Linuxu.
+
+Inštalácia
+1. Aktualizujte balíčky a systém:
+
+sudo apt update
+sudo apt upgrade
+
+2. Inštalácia závislostí:
+
+    PyQt5:
+
+sudo apt install python3-pyqt5
+
+psutil:
+
+pip3 install psutil
+
+NetworkManager:
+
+    sudo apt install network-manager
+
+3. Spustenie aplikácií
+
+Po nainštalovaní závislostí môžete spustiť aplikácie pomocou príkazov:
+
+    Wi-Fi správca (správa pripojení):
+
+python3 wifi_manager.py
+
+Správca systémových zdrojov (monitorovanie CPU, RAM a Disku):
+
+python3 system_monitor.py
+
+Nastavenie dátumu a času:
+
+python3 time_manager.py

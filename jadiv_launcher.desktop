@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=JADIV Aplikácie
+Comment=Spúšťa aplikácie JADIV
+Exec=python3 /home/user01/.jadiv/jadiv_appmanager.py
+Icon=/home/user01/.jadiv/jadiv_icon.png
+Terminal=false
+Type=Application
+Categories=Utility;
