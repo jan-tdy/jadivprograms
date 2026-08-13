@@ -4,7 +4,7 @@
 
 ## Overview
 
-This repository contains miscellaneous programs, scripts, and examples collected as part of personal projects and experiments. The contents vary by language and purpose; each subdirectory may include its own README and usage instructions.
+This repository contains miscellaneous programs, scripts, and examples collected as part of personal projects and experiments. The contents vary by language and purpose.
 
 If you're looking for the actively maintained work by the same author, please see: https://github.com/jan-tdy/codemaster
 
@@ -16,7 +16,6 @@ If you're looking for the actively maintained work by the same author, please se
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [Maintenance and Support](#maintenance-and-support)
-- [License](#license)
 - [Contact](#contact)
 
 ## Contents
@@ -57,9 +56,6 @@ Status: This repository is not actively maintained. There are no planned new fea
 
 If you need actively maintained code or want to work with the repository owner, check out: https://github.com/jan-tdy/codemaster
 
-## License
-
-This repository does not specify a license in the root. If a `LICENSE` file exists in a subproject, that license applies to that subproject. If you plan to reuse code from this repo, confirm the license or ask the repository owner to add one.
 
 ## Contact
 
